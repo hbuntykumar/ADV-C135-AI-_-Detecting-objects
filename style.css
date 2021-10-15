@@ -1,0 +1,47 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 23px;
+    margin: 0;
+    width: 100%;
+}
+
+#objName {
+    display: inline-block;
+}
+
+#note {
+    font-size: 14px;
+    color: black;
+}
+
+#object_name {
+    width: 300px;
+}
+
+#start,
+#number_of_objects,
+#status {
+    font-size: 18px;
+}
+
+.copyright_footer {
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    color: white;
+    background-color: grey;
+    font-size: 12px;
+    font-style: italic;
+}
+
+canvas {
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 130px;
+}
